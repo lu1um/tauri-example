@@ -1,0 +1,71 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.vscode/
+.vscode-test/
+.DS_Store
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+/dist/
+public/build/
+build/
+generated/
+*.log
+
+# Vite
+.vite/
+
+# Svelte
+__sapper__/
+.svelte-kit/
+.svelte/
+*.svelte.d.ts
+
+# Tauri
+src-tauri/target/
+src-tauri/Build/
+**/target/
+**/debug/
+**/release/
+src-tauri/icons/* (optional, 직접 관리하는 아이콘 제외)
+src-tauri/tauri.conf.json  # 깃에 포함하지 않으려면 주석 해제
+src-tauri/.env
+src-tauri/.env.*
+
+# Rust
+Cargo.lock            # 라이브러리 패키지인 경우 커밋하지 않음. 애플리케이션이면 커밋 권장
+target/
+**/target/
+**/*.rs.bk
+**/Cargo.lock.orig
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.stackdump
+
+# IDE
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# temp / misc
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
